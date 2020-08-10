@@ -46,8 +46,10 @@ header nav a {
     header nav li{
        display: inline-block;
        margin-left: 15px;
+        margin-left: auto;
+      margin-right: auto;
     }
-    header nav{
+    header nav .dropdown .dropbtn .dropdown-content a {
       margin-left: auto;
       margin-right: auto;
     }
@@ -155,6 +157,15 @@ header nav .dropdown:hover::before .dropbtn{
   width: 100%;
   }
 }
+@media all and (max-width: 800px){
+  .hero-text{
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left: 50%;
+
+  }
+}   
 .pactitles h4{
   text-transform: capitalize;
   font:bold 32px 'Berkshire Swash', cursive;
